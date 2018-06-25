@@ -366,6 +366,9 @@ python-argparse:
       packages: []
     zesty:
       packages: []
+  windows:
+    pip:
+      packages: [argparse]
 python-attrs:
   debian: [python-attr]
   fedora: [python2-attrs]
@@ -591,6 +594,9 @@ python-catkin-pkg:
     xenial_python3: [python3-catkin-pkg]
     yakkety: [python-catkin-pkg]
     zesty: [python-catkin-pkg]
+  windows:
+    pip:
+      packages: [catkin-pkg]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
   osx:
@@ -785,6 +791,9 @@ python-coverage:
     xenial: [python-coverage]
     yakkety: [python-coverage]
     zesty: [python-coverage]
+  windows:
+    pip:
+      packages: [coverage]
 python-cpplint:
   debian:
     pip:
@@ -845,6 +854,9 @@ python-crypto:
     yakkety_python3: [python3-crypto]
     zesty: [python-crypto]
     zesty_python3: [python3-crypto]
+  windows:
+    pip:
+      packages: [crypto]
 python-cryptography:
   debian: [python-cryptography]
   gentoo: [dev-python/cryptography]
@@ -865,6 +877,9 @@ python-dateutil:
     pip:
       packages: [python-dateutil]
   ubuntu: [python-dateutil]
+  windows:
+    pip:
+      packages: [dateutil]
 python-deap-pip:
   debian:
     pip: [deap]
@@ -918,6 +933,9 @@ python-defusedxml:
     pip:
       packages: [defusedxml]
   ubuntu: [python-defusedxml]
+  windows:
+    pip:
+      packages: [defusedxml]
 python-django:
   arch: [python2-django]
   debian: [python-django]
@@ -991,6 +1009,9 @@ python-empy:
     pip:
       packages: [empy]
   ubuntu: [python-empy]
+  windows:
+    pip:
+      packages: [empy]
 python-enum:
   debian:
     jessie: [python-enum]
@@ -1564,6 +1585,9 @@ python-imaging:
     yakkety_python3: [python3-imaging]
     zesty: [python-imaging]
     zesty_python3: [python3-imaging]
+  windows:
+    pip:
+      packages: [Pillow]
 python-impacket:
   debian: [python-impacket]
   fedora: [python-impacket]
@@ -1829,6 +1853,9 @@ python-mock:
     xenial_python3: [python3-mock]
     yakkety: [python-mock]
     zesty: [python-mock]
+  windows:
+    pip:
+      packages: [mock]
 python-msgpack:
   arch: [python2-msgpack]
   debian: [python-msgpack]
@@ -1934,6 +1961,9 @@ python-netifaces:
     yakkety_python3: [python3-netifaces]
     zesty: [python-netifaces]
     zesty_python3: [python3-netifaces]
+  windows:
+    pip:
+      packages: [netifaces]
 python-networkmanager:
   debian:
     buster: [python-networkmanager]
@@ -1997,6 +2027,9 @@ python-nose:
     xenial_python3: [python3-nose]
     yakkety: [python-nose]
     zesty: [python-nose]
+  windows:
+    pip:
+      packages: [nose]
 python-numpy:
   arch: [python2-numpy]
   debian: [python-numpy]
@@ -2029,6 +2062,9 @@ python-numpy:
     xenial: [python-numpy]
     yakkety: [python-numpy]
     zesty: [python-numpy]
+  windows:
+    pip:
+      packages: [numpy]
 python-numpy-stl-pip:
   osx:
     pip:
@@ -2154,6 +2190,9 @@ python-paramiko:
   rhel: [python-paramiko]
   slackware: [paramiko]
   ubuntu: [python-paramiko]
+  windows:
+    pip:
+      packages: [paramiko]
 python-parso:
   debian:
     buster: [python-parso]
@@ -2989,6 +3028,9 @@ python-rosdep:
     yakkety_python3: [python3-rosdep]
     zesty: [python-rosdep]
     zesty_python3: [python3-rosdep]
+  windows:
+    pip:
+      packages: [rosdep]
 python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
@@ -3103,6 +3145,9 @@ python-rospkg:
     yakkety_python3: [python3-rospkg]
     zesty: [python-rospkg]
     zesty_python3: [python3-rospkg]
+  windows:
+    pip:
+      packages: [rospkg]
 python-rpi.gpio:
   debian:
     buster: [python-rpi.gpio]
@@ -4215,6 +4260,10 @@ python-yaml:
     yakkety_python3: [python3-yaml]
     zesty: [python-yaml]
     zesty_python3: [python3-yaml]
+  windows:
+    pip:
+      depends: [yaml-cpp]
+      packages: [PyYAML]
 python-zbar:
   debian: [python-zbar]
   fedora: [zbar-pygtk]

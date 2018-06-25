@@ -67,6 +67,7 @@ apr:
     slackpkg:
       packages: [apr, apr-util]
   ubuntu: [libapr1-dev, libaprutil1-dev]
+  windows: []
 arduino-core:
   arch: [arduino]
   debian: [arduino-core]
@@ -302,6 +303,7 @@ boost:
     xenial: [libboost-all-dev]
     yakkety: [libboost-all-dev]
     zesty: [libboost-all-dev]
+  windows: [boost-1.66.0]
 box2d-dev:
   arch: [box2d]
   debian: [libbox2d-dev]
@@ -1539,6 +1541,7 @@ libconsole-bridge-dev:
   opensuse: [libconsole_bridge0]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
+  windows: [console_bridge]
 libcpprest-dev:
   debian:
     buster: [libcpprest-dev]
@@ -2536,6 +2539,7 @@ libpoco-dev:
   opensuse: [poco-devel]
   slackware: [poco]
   ubuntu: [libpoco-dev]
+  windows: [poco]
 libpocofoundation9:
   debian: [libpocofoundation9]
   fedora: [poco-foundation]
@@ -3571,6 +3575,7 @@ log4cxx:
     xenial: [liblog4cxx10-dev]
     yakkety: [liblog4cxx10-dev]
     zesty: [liblog4cxx10-dev]
+  windows: [log4cxx]
 lttng-modules:
   arch: [lttng-modules]
   debian: [lttng-modules-dkms]
@@ -3621,6 +3626,7 @@ lz4:
     xenial: [liblz4-dev]
     yakkety: [liblz4-dev]
     zesty: [liblz4-dev]
+  windows: [lz4]
 m4:
   arch: [m4]
   debian: [m4]
@@ -4048,6 +4054,7 @@ pkg-config:
     slackpkg:
       packages: [pkg-config]
   ubuntu: [pkg-config]
+  windows: [pkg-config]
 pocketsphinx-bin:
   debian:
     buster: [pocketsphinx]
@@ -4314,6 +4321,7 @@ sbcl:
   opensuse: [sbcl]
   slackware: [sbcl]
   ubuntu: [sbcl]
+  windows: [sbcl]
 scons:
   arch: [scons]
   debian: [scons]
@@ -4722,6 +4730,7 @@ tinyxml:
   rhel: [tinyxml-devel]
   slackware: [tinyxml]
   ubuntu: [libtinyxml-dev]
+  windows: [tinyxml]
 tinyxml2:
   arch: [tinyxml2]
   debian: [libtinyxml2-dev]
@@ -4730,6 +4739,7 @@ tinyxml2:
   gentoo: [dev-libs/tinyxml2]
   opensuse: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
+  windows: [tinyxml2]
 tix:
   arch: [tix]
   debian: [tix]
