@@ -404,6 +404,7 @@ cmake:
     slackpkg:
       packages: [cmake]
   ubuntu: [cmake]
+  windows: [cmake]
 coinor-libcbc-dev:
   debian: [coinor-libcbc-dev]
   gentoo: [sci-libs/coinor-cbc]
@@ -1914,6 +1915,7 @@ libgpgme-dev:
     xenial: [libgpgme11-dev]
     yakkety: [libgpgme-dev]
     zesty: [libgpgme-dev]
+  windows: [gpgme]
 libgphoto-dev:
   arch: [libgphoto2]
   debian: [libgphoto2-2-dev]
