@@ -244,6 +244,7 @@ python:
     yakkety_python3: [python3-dev]
     zesty: [python-dev]
     zesty_python3: [python3-dev]
+  windows: [miniconda2]
 python-adafruit-bno055-pip:
   debian:
     pip:
@@ -368,7 +369,7 @@ python-argparse:
       packages: []
   windows:
     pip:
-      packages: [argparse]
+      packages: [python-argparse]
 python-attrs:
   debian: [python-attr]
   fedora: [python2-attrs]
@@ -596,7 +597,7 @@ python-catkin-pkg:
     zesty: [python-catkin-pkg]
   windows:
     pip:
-      packages: [catkin-pkg]
+      packages: [python-catkin-pkg]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
   osx:
@@ -793,7 +794,7 @@ python-coverage:
     zesty: [python-coverage]
   windows:
     pip:
-      packages: [coverage]
+      packages: [python-coverage]
 python-cpplint:
   debian:
     pip:
@@ -856,7 +857,7 @@ python-crypto:
     zesty_python3: [python3-crypto]
   windows:
     pip:
-      packages: [crypto]
+      packages: [python-crypto]
 python-cryptography:
   debian: [python-cryptography]
   gentoo: [dev-python/cryptography]
@@ -879,7 +880,7 @@ python-dateutil:
   ubuntu: [python-dateutil]
   windows:
     pip:
-      packages: [dateutil]
+      packages: [python-dateutil]
 python-deap-pip:
   debian:
     pip: [deap]
@@ -935,7 +936,7 @@ python-defusedxml:
   ubuntu: [python-defusedxml]
   windows:
     pip:
-      packages: [defusedxml]
+      packages: [python-defusedxml]
 python-django:
   arch: [python2-django]
   debian: [python-django]
@@ -1011,7 +1012,7 @@ python-empy:
   ubuntu: [python-empy]
   windows:
     pip:
-      packages: [empy]
+      packages: [python-empy]
 python-enum:
   debian:
     jessie: [python-enum]
@@ -1338,6 +1339,7 @@ python-gnupg:
   fedora: [python-gnupg]
   gentoo: [dev-python/python-gnupg]
   ubuntu: [python-gnupg]
+  windows: [gnupg]
 python-google-cloud-bigquery-pip:
   debian:
     pip:
@@ -1587,7 +1589,7 @@ python-imaging:
     zesty_python3: [python3-imaging]
   windows:
     pip:
-      packages: [Pillow]
+      packages: [pillow]
 python-impacket:
   debian: [python-impacket]
   fedora: [python-impacket]

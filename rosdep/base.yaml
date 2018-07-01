@@ -996,6 +996,7 @@ google-mock:
   opensuse: [gmock-devel]
   rhel: [gmock-devel]
   ubuntu: [google-mock]
+  windows: [google-mock]
 gperftools:
   debian: [google-perftools, libgoogle-perftools-dev]
   fedora: [gperftools, gperftools-devel]
@@ -1143,6 +1144,7 @@ gtest:
   rhel: [gtest-devel]
   slackware: [gtest]
   ubuntu: [libgtest-dev]
+  windows: [google-test]
 gtk-doc-tools:
   arch: [gtk-doc]
   debian: [gtk-doc-tools]
@@ -2983,6 +2985,7 @@ libssl-dev:
   fedora: [openssl-devel]
   gentoo: [dev-libs/openssl]
   ubuntu: [libssl-dev]
+  windows: [openssl]
 libstdc++5:
   arch: [libstdc++5]
   debian: [libstdc++5]
@@ -5090,6 +5093,7 @@ yaml-cpp:
     xenial: [libyaml-cpp-dev]
     yakkety: [libyaml-cpp-dev]
     zesty: [libyaml-cpp-dev]
+  windows: [yaml-cpp]
 yamllint:
   arch: [yamllint]
   debian:
