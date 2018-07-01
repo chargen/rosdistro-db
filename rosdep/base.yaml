@@ -345,6 +345,7 @@ bzip2:
     slackpkg:
       packages: [bzip2]
   ubuntu: [libbz2-dev]
+  windows: [bzip2]
 ca-certificates:
   arch: [ca-certificates]
   debian: [ca-certificates]
