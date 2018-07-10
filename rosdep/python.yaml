@@ -1,4 +1,4 @@
-adafruit-gpio-pip:
+﻿adafruit-gpio-pip:
   debian:
     pip:
       packages: [Adafruit-GPIO]
@@ -857,7 +857,7 @@ python-crypto:
     zesty_python3: [python3-crypto]
   windows:
     pip:
-      packages: [python-crypto]
+      packages: [pycrypto]
 python-cryptography:
   debian: [python-cryptography]
   gentoo: [dev-python/cryptography]
