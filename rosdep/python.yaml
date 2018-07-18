@@ -4185,6 +4185,7 @@ python-wstool:
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
   ubuntu: [python-wstool]
+  windows: [python-wstool]
 python-wtforms:
   debian: [python-wtforms]
   fedora: [python-wtforms]
@@ -4197,6 +4198,7 @@ python-wxtools:
   freebsd: [py27-wxPython30]
   gentoo: [dev-python/wxpython]
   ubuntu: [python-wxtools]
+  windows: [python-wxtools]
 python-xdot:
   debian: [xdot]
   fedora: [python-xdot]
