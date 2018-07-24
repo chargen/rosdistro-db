@@ -1916,7 +1916,6 @@ libgpgme-dev:
     xenial: [libgpgme11-dev]
     yakkety: [libgpgme-dev]
     zesty: [libgpgme-dev]
-  windows: [gpgme]
 libgphoto-dev:
   arch: [libgphoto2]
   debian: [libgphoto2-2-dev]
