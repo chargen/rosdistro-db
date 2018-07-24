@@ -244,7 +244,7 @@ python:
     yakkety_python3: [python3-dev]
     zesty: [python-dev]
     zesty_python3: [python3-dev]
-  windows: [miniconda2]
+  windows: [python2]
 python-adafruit-bno055-pip:
   debian:
     pip:
@@ -369,7 +369,7 @@ python-argparse:
       packages: []
   windows:
     pip:
-      packages: [python-argparse]
+      packages: [argparse]
 python-attrs:
   debian: [python-attr]
   fedora: [python2-attrs]
@@ -597,7 +597,7 @@ python-catkin-pkg:
     zesty: [python-catkin-pkg]
   windows:
     pip:
-      packages: [python-catkin-pkg]
+      packages: [catkin_pkg]
 python-catkin-sphinx:
   fedora: [python-catkin-sphinx]
   osx:
@@ -794,7 +794,7 @@ python-coverage:
     zesty: [python-coverage]
   windows:
     pip:
-      packages: [python-coverage]
+      packages: [coverage]
 python-cpplint:
   debian:
     pip:
@@ -936,7 +936,7 @@ python-defusedxml:
   ubuntu: [python-defusedxml]
   windows:
     pip:
-      packages: [python-defusedxml]
+      packages: [defusedxml]
 python-django:
   arch: [python2-django]
   debian: [python-django]
@@ -1012,7 +1012,7 @@ python-empy:
   ubuntu: [python-empy]
   windows:
     pip:
-      packages: [python-empy]
+      packages: [empy]
 python-enum:
   debian:
     jessie: [python-enum]
@@ -4185,7 +4185,7 @@ python-wstool:
   gentoo: [dev-python/wstool]
   macports: [py27-wstool]
   ubuntu: [python-wstool]
-  windows: [python-wstool]
+  windows: [wstool]
 python-wtforms:
   debian: [python-wtforms]
   fedora: [python-wtforms]
@@ -4198,7 +4198,7 @@ python-wxtools:
   freebsd: [py27-wxPython30]
   gentoo: [dev-python/wxpython]
   ubuntu: [python-wxtools]
-  windows: [python-wxtools]
+  windows: [wxtools]
 python-xdot:
   debian: [xdot]
   fedora: [python-xdot]
