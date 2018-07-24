@@ -303,7 +303,7 @@ boost:
     xenial: [libboost-all-dev]
     yakkety: [libboost-all-dev]
     zesty: [libboost-all-dev]
-  windows: [boost-1.66.0]
+  windows: [boost]
 box2d-dev:
   arch: [box2d]
   debian: [libbox2d-dev]
