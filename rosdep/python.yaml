@@ -1339,7 +1339,9 @@ python-gnupg:
   fedora: [python-gnupg]
   gentoo: [dev-python/python-gnupg]
   ubuntu: [python-gnupg]
-  windows: [gnupg]
+  windows:
+    pip:
+      packages: [gnupg]
 python-google-cloud-bigquery-pip:
   debian:
     pip:
