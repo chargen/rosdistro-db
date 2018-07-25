@@ -405,7 +405,6 @@ cmake:
     slackpkg:
       packages: [cmake]
   ubuntu: [cmake]
-  windows: [cmake]
 coinor-libcbc-dev:
   debian: [coinor-libcbc-dev]
   gentoo: [sci-libs/coinor-cbc]
