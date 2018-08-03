@@ -3192,6 +3192,7 @@ liburdfdom-dev:
   opensuse: [urdfdom-devel]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-dev]
+  windows: [urdfdom]
 liburdfdom-headers-dev:
   arch: [urdfdom-headers]
   debian: [liburdfdom-headers-dev]
@@ -3200,6 +3201,7 @@ liburdfdom-headers-dev:
   opensuse: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
+  windows: [urdfdom_headers]
 liburdfdom-tools:
   arch: [urdfdom]
   debian: [liburdfdom-tools]
