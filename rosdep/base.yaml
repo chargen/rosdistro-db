@@ -119,6 +119,7 @@ assimp:
     xenial: [libassimp-dev]
     yakkety: [libassimp-dev]
     zesty: [libassimp-dev]
+  windows: [assimp]
 assimp-dev:
   arch: [assimp]
   debian: [libassimp-dev]
@@ -524,6 +525,7 @@ curl:
     slackpkg:
       packages: [curl]
   ubuntu: [libcurl4-openssl-dev, curl]
+  windows: [curl]
 curlpp-dev:
   debian: [libcurlpp-dev]
   fedora: [curlpp-devel]
@@ -2324,6 +2326,7 @@ libogre-dev:
     xenial: [libogre-1.9-dev]
     yakkety: [libogre-1.9-dev]
     zesty: [libogre-1.9-dev]
+  windows: [ogre]
 libois-dev:
   arch: [ois]
   debian: [libois-dev]
@@ -2350,6 +2353,7 @@ libopencv-dev:
     vivid: [libopencv-dev]
     wily: [libopencv-dev]
     xenial: [libopencv-dev]
+  windows: [opencv]
 libopenexr-dev:
   arch: [openexr]
   debian: [libopenexr-dev]
