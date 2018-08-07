@@ -636,6 +636,7 @@ eigen:
     slackpkg:
       packages: [eigen3]
   ubuntu: [libeigen3-dev]
+  windows: [eigen]
 eigen2:
   arch: [eigen2]
   debian:
