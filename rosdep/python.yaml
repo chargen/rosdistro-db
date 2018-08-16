@@ -2414,6 +2414,9 @@ python-psutil:
     xenial: [python-psutil]
     yakkety: [python-psutil]
     zesty: [python-psutil]
+  windows:
+    pip:
+      packages: [python-psutil]
 python-psycopg2:
   debian: [python-psycopg2]
   fedora: [python-psycopg2]
