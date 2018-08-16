@@ -2416,7 +2416,7 @@ python-psutil:
     zesty: [python-psutil]
   windows:
     pip:
-      packages: [python-psutil]
+      packages: [psutil]
 python-psycopg2:
   debian: [python-psycopg2]
   fedora: [python-psycopg2]
