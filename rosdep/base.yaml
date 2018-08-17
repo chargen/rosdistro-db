@@ -68,6 +68,7 @@ apr:
     slackpkg:
       packages: [apr, apr-util]
   ubuntu: [libapr1-dev, libaprutil1-dev]
+  windows: []
 arduino-core:
   arch: [arduino]
   debian: [arduino-core]
@@ -119,6 +120,7 @@ assimp:
     xenial: [libassimp-dev]
     yakkety: [libassimp-dev]
     zesty: [libassimp-dev]
+  windows: [assimp]
 assimp-dev:
   arch: [assimp]
   debian: [libassimp-dev]
@@ -304,6 +306,7 @@ boost:
     xenial: [libboost-all-dev]
     yakkety: [libboost-all-dev]
     zesty: [libboost-all-dev]
+  windows: [boost]
 box2d-dev:
   arch: [box2d]
   debian: [libbox2d-dev]
@@ -346,6 +349,7 @@ bzip2:
     slackpkg:
       packages: [bzip2]
   ubuntu: [libbz2-dev]
+  windows: [bzip2]
 ca-certificates:
   arch: [ca-certificates]
   debian: [ca-certificates]
@@ -532,6 +536,7 @@ curl:
     slackpkg:
       packages: [curl]
   ubuntu: [libcurl4-openssl-dev, curl]
+  windows: [curl]
 curlpp-dev:
   debian: [libcurlpp-dev]
   fedora: [curlpp-devel]
@@ -642,6 +647,7 @@ eigen:
     slackpkg:
       packages: [eigen3]
   ubuntu: [libeigen3-dev]
+  windows: [eigen]
 eigen2:
   arch: [eigen2]
   debian:
@@ -1008,6 +1014,7 @@ google-mock:
   opensuse: [gmock-devel]
   rhel: [gmock-devel]
   ubuntu: [google-mock]
+  windows: [google-mock]
 gperftools:
   debian: [google-perftools, libgoogle-perftools-dev]
   fedora: [gperftools, gperftools-devel]
@@ -1156,6 +1163,7 @@ gtest:
   rhel: [gtest-devel]
   slackware: [gtest]
   ubuntu: [libgtest-dev]
+  windows: [google-test]
 gtk-doc-tools:
   arch: [gtk-doc]
   debian: [gtk-doc-tools]
@@ -1557,6 +1565,7 @@ libconsole-bridge-dev:
   opensuse: [libconsole_bridge0]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
+  windows: [console_bridge]
 libcpprest-dev:
   debian:
     buster: [libcpprest-dev]
@@ -2356,6 +2365,7 @@ libogre-dev:
     xenial: [libogre-1.9-dev]
     yakkety: [libogre-1.9-dev]
     zesty: [libogre-1.9-dev]
+  windows: [ogre]
 libois-dev:
   arch: [ois]
   debian: [libois-dev]
@@ -2386,6 +2396,7 @@ libopencv-dev:
     vivid: [libopencv-dev]
     wily: [libopencv-dev]
     xenial: [libopencv-dev]
+  windows: [opencv]
 libopenexr-dev:
   arch: [openexr]
   debian: [libopenexr-dev]
@@ -2584,6 +2595,7 @@ libpoco-dev:
   opensuse: [poco-devel]
   slackware: [poco]
   ubuntu: [libpoco-dev]
+  windows: [poco]
 libpocofoundation9:
   debian: [libpocofoundation9]
   fedora: [poco-foundation]
@@ -3034,6 +3046,7 @@ libssl-dev:
   fedora: [openssl-devel]
   gentoo: [dev-libs/openssl]
   ubuntu: [libssl-dev]
+  windows: [openssl]
 libstdc++5:
   arch: [libstdc++5]
   debian: [libstdc++5]
@@ -3235,6 +3248,7 @@ liburdfdom-dev:
   opensuse: [urdfdom-devel]
   slackware: [urdfdom]
   ubuntu: [liburdfdom-dev]
+  windows: [urdfdom]
 liburdfdom-headers-dev:
   arch: [urdfdom-headers]
   debian: [liburdfdom-headers-dev]
@@ -3243,6 +3257,7 @@ liburdfdom-headers-dev:
   opensuse: [urdfdom-headers-devel]
   slackware: [urdfdom_headers]
   ubuntu: [liburdfdom-headers-dev]
+  windows: [urdfdom_headers]
 liburdfdom-tools:
   arch: [urdfdom]
   debian: [liburdfdom-tools]
@@ -3642,6 +3657,7 @@ log4cxx:
     xenial: [liblog4cxx10-dev]
     yakkety: [liblog4cxx10-dev]
     zesty: [liblog4cxx10-dev]
+  windows: [log4cxx]
 lttng-modules:
   arch: [lttng-modules]
   debian: [lttng-modules-dkms]
@@ -3693,6 +3709,7 @@ lz4:
     xenial: [liblz4-dev]
     yakkety: [liblz4-dev]
     zesty: [liblz4-dev]
+  windows: [lz4]
 m4:
   arch: [m4]
   debian: [m4]
@@ -4124,6 +4141,7 @@ pkg-config:
     slackpkg:
       packages: [pkg-config]
   ubuntu: [pkg-config]
+  windows: [pkg-config]
 pocketsphinx-bin:
   debian:
     buster: [pocketsphinx]
@@ -4400,6 +4418,7 @@ sbcl:
   opensuse: [sbcl]
   slackware: [sbcl]
   ubuntu: [sbcl]
+  windows: [sbcl]
 scons:
   arch: [scons]
   debian: [scons]
@@ -4809,6 +4828,7 @@ tinyxml:
   rhel: [tinyxml-devel]
   slackware: [tinyxml]
   ubuntu: [libtinyxml-dev]
+  windows: [tinyxml]
 tinyxml2:
   alpine: [tinyxml2-dev]
   arch: [tinyxml2]
@@ -4818,6 +4838,7 @@ tinyxml2:
   gentoo: [dev-libs/tinyxml2]
   opensuse: [tinyxml2-devel]
   ubuntu: [libtinyxml2-dev]
+  windows: [tinyxml2]
 tix:
   arch: [tix]
   debian: [tix]
@@ -5169,6 +5190,7 @@ yaml-cpp:
     xenial: [libyaml-cpp-dev]
     yakkety: [libyaml-cpp-dev]
     zesty: [libyaml-cpp-dev]
+  windows: [yaml-cpp]
 yamllint:
   arch: [yamllint]
   debian:

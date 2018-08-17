@@ -1,0 +1,2 @@
+vcpython:
+  windows: [vcpython27]
