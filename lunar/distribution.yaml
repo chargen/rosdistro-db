@@ -5,8 +5,6 @@
 release_platforms:
   debian:
   - stretch
-  fedora:
-  - '26'
   ubuntu:
   - xenial
 repositories:
@@ -110,6 +108,28 @@ repositories:
       url: https://github.com/ros-perception/ar_track_alvar.git
       version: kinetic-devel
     status: maintained
+  arbotix:
+    doc:
+      type: git
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: indigo-devel
+    release:
+      packages:
+      - arbotix
+      - arbotix_controllers
+      - arbotix_firmware
+      - arbotix_msgs
+      - arbotix_python
+      - arbotix_sensors
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/vanadiumlabs/arbotix_ros-release.git
+      version: 0.10.0-0
+    source:
+      type: git
+      url: https://github.com/vanadiumlabs/arbotix_ros.git
+      version: indigo-devel
+    status: maintained
   asr_msgs:
     doc:
       type: git
@@ -124,16 +144,19 @@ repositories:
       packages:
       - astuff_sensor_msgs
       - delphi_esr_msgs
+      - delphi_mrr_msgs
       - delphi_srr_msgs
+      - derived_object_msgs
       - ibeo_msgs
       - kartech_linear_actuator_msgs
       - mobileye_560_660_msgs
       - neobotix_usboard_msgs
       - pacmod_msgs
+      - radar_msgs
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/astuff/astuff_sensor_msgs-release.git
-      version: 2.0.1-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/astuff/astuff_sensor_msgs.git
@@ -160,6 +183,21 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: master
     status: maintained
+  automotive_autonomy_msgs:
+    release:
+      packages:
+      - automotive_autonomy_msgs
+      - automotive_navigation_msgs
+      - automotive_platform_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/automotive_autonomy_msgs-release.git
+      version: 2.0.2-0
+    source:
+      type: git
+      url: https://github.com/astuff/automotive_autonomy_msgs.git
+      version: master
+    status: developed
   auv_msgs:
     doc:
       type: git
@@ -246,6 +284,12 @@ repositories:
       type: git
       url: https://github.com/ros/bond_core.git
       version: kinetic-devel
+    status: maintained
+  bta_tof_driver:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_tof_driver.git
+      version: master
     status: maintained
   calibration:
     doc:
@@ -344,7 +388,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/googlecartographer/cartographer.git
-      version: master
+      version: 0.2.0
     release:
       tags:
         release: release/lunar/{package}/{version}
@@ -355,7 +399,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/googlecartographer/cartographer_ros.git
-      version: master
+      version: 0.2.0
     release:
       packages:
       - cartographer_ros
@@ -390,7 +434,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.11-0
+      version: 0.7.14-0
     source:
       test_pull_requests: true
       type: git
@@ -458,6 +502,21 @@ repositories:
       type: git
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
+  code_coverage:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/code_coverage.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/mikeferguson/code_coverage-gbp.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/code_coverage.git
+      version: master
+    status: developed
   collada_urdf:
     doc:
       type: git
@@ -752,6 +811,17 @@ repositories:
       type: git
       url: https://github.com/ensenso/ros_driver.git
       version: master
+    status: developed
+  euslisp:
+    doc:
+      type: git
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/lunar/euslisp
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/euslisp-release.git
+      version: 9.25.0-0
     status: developed
   executive_smach:
     doc:
@@ -1060,7 +1130,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.5.17-0
+      version: 0.5.18-0
     source:
       test_pull_requests: true
       type: git
@@ -1146,7 +1216,7 @@ repositories:
   grid_map:
     doc:
       type: git
-      url: https://github.com/ethz-asl/grid_map.git
+      url: https://github.com/anybotics/grid_map.git
       version: master
     release:
       packages:
@@ -1166,12 +1236,12 @@ repositories:
       - grid_map_visualization
       tags:
         release: release/lunar/{package}/{version}
-      url: https://github.com/ethz-asl/grid_map-release.git
+      url: https://github.com/anybotics/grid_map-release.git
       version: 1.6.0-1
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ethz-asl/grid_map.git
+      url: https://github.com/anybotics/grid_map.git
       version: master
     status: developed
   grpc:
@@ -1204,6 +1274,39 @@ repositories:
       url: https://github.com/ros-drivers/gscam.git
       version: master
     status: unmaintained
+  hector_gazebo:
+    doc:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+      version: kinetic-devel
+    release:
+      packages:
+      - hector_gazebo
+      - hector_gazebo_plugins
+      - hector_gazebo_thermal_camera
+      - hector_gazebo_worlds
+      - hector_sensors_gazebo
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_gazebo-release.git
+      version: 0.5.1-0
+    status: maintained
+  hector_models:
+    doc:
+      type: git
+      url: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+      version: kinetic-devel
+    release:
+      packages:
+      - hector_components_description
+      - hector_models
+      - hector_sensors_description
+      - hector_xacro_tools
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
+      version: 0.5.0-0
+    status: maintained
   hokuyo3d:
     doc:
       type: git
@@ -1219,8 +1322,40 @@ repositories:
       url: https://github.com/at-wat/hokuyo3d.git
       version: master
     status: developed
+  ibeo_core:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/ibeo_core-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/ibeo_core.git
+      version: release
+    status: developed
+  ibeo_lux:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/ibeo_lux-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/ibeo_lux.git
+      version: release
+    status: developed
   ifopt:
     doc:
+      type: git
+      url: https://github.com/ethz-adrl/ifopt.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ethz-adrl/ifopt-release.git
+      version: 2.0.5-0
+    source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ethz-adrl/ifopt.git
       version: master
@@ -1390,6 +1525,21 @@ repositories:
       url: https://github.com/corb555/iot_bridge.git
       version: kinetic-devel
     status: developed
+  ira_laser_tools:
+    doc:
+      type: git
+      url: https://github.com/iralabdisco/ira_laser_tools.git
+      version: kinetic
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/iralabdisco/ira_laser_tools-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/iralabdisco/ira_laser_tools.git
+      version: kinetic
+    status: developed
   ivcon:
     release:
       tags:
@@ -1460,6 +1610,36 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
       version: master
     status: developed
+  jsk_roseus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    release:
+      packages:
+      - jsk_roseus
+      - roseus
+      - roseus_smach
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/jsk_roseus-release.git
+      version: 1.7.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    status: developed
+  jskeus:
+    doc:
+      type: git
+      url: https://github.com/euslisp/jskeus.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/tork-a/jskeus-release.git
+      version: 1.2.0-1
+    status: developed
   json_transport:
     doc:
       type: git
@@ -1517,7 +1697,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/kdl_parser-release.git
-      version: 1.12.10-0
+      version: 1.12.11-0
     source:
       test_pull_requests: true
       type: git
@@ -1583,6 +1763,22 @@ repositories:
       type: git
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
+    status: maintained
+  laser_proc:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/laser_proc-release.git
+      version: 0.1.4-1
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/laser_proc.git
+      version: indigo-devel
     status: maintained
   libcreate:
     doc:
@@ -1703,7 +1899,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -1774,7 +1970,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2018.6.6-0
+      version: 2018.8.8-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -1795,7 +1991,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.26.0-0
+      version: 0.26.2-0
     source:
       test_pull_requests: true
       type: git
@@ -1897,6 +2093,7 @@ repositories:
       url: https://github.com/ros-gbp/metapackages-release.git
       version: 1.3.2-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/metapackages.git
       version: kinetic-devel
@@ -1979,6 +2176,21 @@ repositories:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
       version: kinetic-devel
+    status: maintained
+  moveit_python:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/mikeferguson/moveit_python-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
     status: maintained
   moveit_resources:
     doc:
@@ -2141,6 +2353,33 @@ repositories:
       url: https://github.com/ros-gbp/navigation_msgs-release.git
       version: 1.13.0-0
     status: maintained
+  neonavigation:
+    doc:
+      type: git
+      url: https://github.com/at-wat/neonavigation.git
+      version: master
+    release:
+      packages:
+      - costmap_cspace
+      - joystick_interrupt
+      - map_organizer
+      - neonavigation
+      - neonavigation_common
+      - neonavigation_launch
+      - obj_to_pointcloud
+      - planner_cspace
+      - safety_limiter
+      - track_odometry
+      - trajectory_tracker
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/at-wat/neonavigation-release.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/at-wat/neonavigation.git
+      version: master
+    status: developed
   neonavigation_msgs:
     doc:
       type: git
@@ -2187,7 +2426,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/nerian-vision/nerian_stereo-release.git
-      version: 3.0.0-0
+      version: 3.0.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_stereo.git
@@ -2256,7 +2495,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/swri-robotics-gbp/novatel_gps_driver-release.git
-      version: 3.4.0-0
+      version: 3.5.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/novatel_gps_driver.git
@@ -2388,6 +2627,21 @@ repositories:
       url: https://github.com/ose-support-ros/omronsentech_camera.git
       version: master
     status: developed
+  open_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/open_karto-release.git
+      version: 1.1.4-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: indigo-devel
+    status: maintained
   open_street_map:
     doc:
       type: git
@@ -2414,6 +2668,21 @@ repositories:
       url: https://github.com/ros-gbp/opencv3-release.git
       version: 3.3.1-2
     status: maintained
+  opencv_apps:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-perception/opencv_apps-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
+    status: developed
   openni2_camera:
     doc:
       type: git
@@ -2426,9 +2695,8 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.3.0-0
+      version: 0.4.0-0
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
       version: indigo-devel
@@ -2516,6 +2784,36 @@ repositories:
       url: https://github.com/astuff/pacmod.git
       version: release
     status: developed
+  pacmod3:
+    doc:
+      type: git
+      url: https://github.com/astuff/pacmod3.git
+      version: release
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/pacmod3-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/pacmod3.git
+      version: master
+    status: developed
+  pacmod_game_control:
+    doc:
+      type: git
+      url: https://github.com/astuff/pacmod_game_control.git
+      version: release
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/astuff/pacmod_game_control-release.git
+      version: 2.1.0-0
+    source:
+      type: git
+      url: https://github.com/astuff/pacmod_game_control.git
+      version: master
+    status: developed
   parameter_pa:
     doc:
       type: git
@@ -2531,6 +2829,17 @@ repositories:
       url: https://github.com/tuc-proaut/ros_parameter.git
       version: master
     status: maintained
+  parrot_arsdk:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/AutonomyLab/parrot_arsdk-release.git
+      version: 3.14.1-0
+    source:
+      type: git
+      url: https://github.com/AutonomyLab/parrot_arsdk.git
+      version: indigo-devel
+    status: developed
   pcdfilter_pa:
     doc:
       type: git
@@ -2611,7 +2920,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-drivers-gbp/phidgets_drivers-release.git
-      version: 0.7.5-0
+      version: 0.7.6-0
     source:
       test_pull_requests: true
       type: git
@@ -2627,7 +2936,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/AndyZe/pid-release.git
-      version: 0.0.25-0
+      version: 0.0.27-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -2642,7 +2951,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.6.2-0
+      version: 1.7.3-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -2751,7 +3060,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.3.3-2
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -2857,7 +3166,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.8-0
+      version: 0.3.10-0
     source:
       test_pull_requests: true
       type: git
@@ -2910,7 +3219,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/roboception-gbp/rc_cloud_accumulator-release.git
-      version: 1.0.0-0
+      version: 1.0.4-0
     source:
       test_pull_requests: true
       type: git
@@ -2926,7 +3235,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/roboception-gbp/rc_dynamics_api-release.git
-      version: 0.6.0-0
+      version: 0.7.0-0
     source:
       test_pull_requests: true
       type: git
@@ -2942,7 +3251,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/roboception-gbp/rc_genicam_api-release.git
-      version: 1.3.8-0
+      version: 1.3.12-0
     source:
       test_pull_requests: true
       type: git
@@ -2962,7 +3271,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/roboception-gbp/rc_visard-release.git
-      version: 2.1.0-0
+      version: 2.2.0-0
     source:
       test_pull_requests: true
       type: git
@@ -3272,7 +3581,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.13.3-0
+      version: 0.13.4-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
@@ -3344,7 +3653,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 1.0.2-0
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
@@ -3417,7 +3726,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rosconsole_bridge-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       test_pull_requests: true
       type: git
@@ -3548,7 +3857,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/xqms/rosmon-release.git
-      version: 1.0.7-0
+      version: 1.0.8-0
     source:
       test_pull_requests: true
       type: git
@@ -3627,6 +3936,21 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
       version: jade-devel
+    status: maintained
+  rplidar_ros:
+    doc:
+      type: git
+      url: https://github.com/Slamtec/rplidar_ros.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/Slamtec/rplidar_ros-release.git
+      version: 1.7.0-0
+    source:
+      type: git
+      url: https://github.com/Slamtec/rplidar_ros.git
+      version: master
     status: maintained
   rqt:
     doc:
@@ -3767,7 +4091,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rqt_image_view-release.git
-      version: 0.4.11-0
+      version: 0.4.13-0
     source:
       test_pull_requests: true
       type: git
@@ -4012,7 +4336,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rqt_rviz-release.git
-      version: 0.5.8-0
+      version: 0.6.0-0
     source:
       test_pull_requests: true
       type: git
@@ -4263,12 +4587,18 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver-release.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/ENSTABretagneRobotics/sbg_ros_driver.git
       version: master
     status: developed
+  sbpl:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/sbpl-release.git
+      version: 1.3.1-0
   sick_ldmrs_laser:
     doc:
       type: git
@@ -4310,6 +4640,21 @@ repositories:
       url: https://github.com/uos/sick_tim.git
       version: lunar
     status: developed
+  simple_grasping:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/simple_grasping.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/simple_grasping-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/simple_grasping.git
+      version: master
+    status: maintained
   slam_gmapping:
     doc:
       type: git
@@ -4344,6 +4689,21 @@ repositories:
       type: git
       url: https://github.com/smits/soem.git
       version: master
+    status: maintained
+  sparse_bundle_adjustment:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/sparse_bundle_adjustment.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/sparse_bundle_adjustment-release.git
+      version: 0.3.2-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/sparse_bundle_adjustment.git
+      version: indigo-devel
     status: maintained
   srdfdom:
     doc:
@@ -4442,7 +4802,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.7.2-0
+      version: 0.7.4-0
     source:
       test_pull_requests: true
       type: git
@@ -4502,6 +4862,19 @@ repositories:
     status: maintained
   towr:
     doc:
+      type: git
+      url: https://github.com/ethz-adrl/towr.git
+      version: master
+    release:
+      packages:
+      - towr
+      - towr_ros
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ethz-adrl/towr-release.git
+      version: 1.4.0-0
+    source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ethz-adrl/towr.git
       version: master
@@ -4623,11 +4996,26 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/urg_c-release.git
-      version: 1.0.404-0
+      version: 1.0.405-0
     source:
       type: git
       url: https://github.com/ros-drivers/urg_c.git
       version: master
+    status: maintained
+  urg_node:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/urg_node.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/urg_node-release.git
+      version: 0.1.11-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/urg_node.git
+      version: indigo-devel
     status: maintained
   usb_cam:
     doc:
@@ -4664,6 +5052,25 @@ repositories:
       url: https://github.com/beltransen/velo2cam_gazebo.git
       version: master
     status: maintained
+  velodyne_simulator:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: master
+    release:
+      packages:
+      - velodyne_description
+      - velodyne_gazebo_plugins
+      - velodyne_simulator
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
+      version: 1.0.7-0
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: master
+    status: maintained
   video_stream_opencv:
     doc:
       type: git
@@ -4673,7 +5080,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-drivers/video_stream_opencv-release.git
-      version: 1.1.2-0
+      version: 1.1.4-0
     source:
       type: git
       url: https://github.com/ros-drivers/video_stream_opencv.git
@@ -4898,7 +5305,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/leggedrobotics/xpp-release.git
-      version: 1.0.6-0
+      version: 1.0.9-0
     source:
       test_pull_requests: true
       type: git
@@ -4914,7 +5321,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 2.1.0-0
+      version: 2.2.2-0
     source:
       type: git
       url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
