@@ -1,5 +1,6 @@
 # os-specific listings first
 yaml https://raw.githubusercontent.com/seanyen-msft/rosdistro-1/init_windows/rosdep/osx-homebrew.yaml osx
+yaml https://raw.githubusercontent.com/seanyen-msft/rosdistro-1/init_windows/rosdep/win-chocolatey.yaml windows
 
 # generic
 yaml https://raw.githubusercontent.com/seanyen-msft/rosdistro-1/init_windows/rosdep/base.yaml
