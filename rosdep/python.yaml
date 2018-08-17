@@ -4204,7 +4204,9 @@ python-wxtools:
   freebsd: [py27-wxPython30]
   gentoo: [dev-python/wxpython]
   ubuntu: [python-wxtools]
-  windows: [wxPython]
+  windows:
+    pip:
+      package: [wxPython]
 python-xdot:
   debian: [xdot]
   fedora: [python-xdot]
@@ -4463,7 +4465,9 @@ wxpython:
     xenial: [python-wxgtk3.0]
     yakkety: [python-wxgtk3.0]
     zesty: [python-wxgtk3.0]
-  windows: [wxPython]
+  windows:
+    pip:
+      package: [wxPython]
 yapf:
   debian:
     buster: [yapf]
