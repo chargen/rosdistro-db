@@ -1966,6 +1966,7 @@ python-netifaces:
     zesty_python3: [python3-netifaces]
   windows:
     pip:
+      depends: [vcpython]
       packages: [netifaces]
 python-networkmanager:
   debian:

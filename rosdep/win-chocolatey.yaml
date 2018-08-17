@@ -1,0 +1,4 @@
+vcpython:
+  windows:
+    pip:
+      packages: [vcpython27]
