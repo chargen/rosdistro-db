@@ -2414,7 +2414,7 @@ libopencv-dev:
     vivid: [libopencv-dev]
     wily: [libopencv-dev]
     xenial: [libopencv-dev]
-  windows: [opencv]
+  windows: [libopencv]
 libopenexr-dev:
   arch: [openexr]
   debian: [libopenexr-dev]
