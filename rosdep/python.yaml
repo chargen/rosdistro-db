@@ -1892,6 +1892,9 @@ python-matplotlib:
     yakkety_python3: [python3-matplotlib]
     zesty: [python-matplotlib]
     zesty_python3: [python3-matplotlib]
+  windows:
+    pip:
+      packages: [matplotlib]
 python-mechanize:
   arch: [python2-mechanize]
   debian: [python-mechanize]
@@ -2242,6 +2245,9 @@ python-opengl:
     xenial: [python-opengl]
     yakkety: [python-opengl]
     zesty: [python-opengl]
+  windows:
+    pip:
+      packages: [PyOpenGL]
 python-openssl:
   debian: [python-openssl]
   gentoo: [dev-python/pyopenssl]
@@ -2997,7 +3003,7 @@ python-qt5-bindings:
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     yakkety: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     zesty: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
-  windows: [pyqt5, sip, qt5-sdk, pyside2]
+  windows: [pyqt5, sip, pyside2, qtbase5-dev]
 python-qt5-bindings-gl:
   arch: [python2-pyqt5]
   debian:

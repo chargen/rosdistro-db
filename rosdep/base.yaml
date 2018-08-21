@@ -334,6 +334,7 @@ bullet:
     xenial: [libbullet-dev]
     yakkety: [libbullet-dev]
     zesty: [libbullet-dev]
+  windows: [bullet3]
 bzip2:
   alpine: [bzip2-dev]
   arch: [bzip2]
@@ -1941,6 +1942,7 @@ libgpgme-dev:
     xenial: [libgpgme11-dev]
     yakkety: [libgpgme-dev]
     zesty: [libgpgme-dev]
+  windows: []
 libgphoto-dev:
   arch: [libgphoto2]
   debian: [libgphoto2-2-dev]
@@ -2824,6 +2826,7 @@ libqt5-core:
   opensuse: [libQt5Core5]
   slackware: [qt5]
   ubuntu: [libqt5core5a]
+  windows: [qt5-sdk]
 libqt5-gui:
   arch: [qt5-base]
   debian: [libqt5gui5]
@@ -2833,6 +2836,7 @@ libqt5-gui:
   opensuse: [libQt5Gui5]
   slackware: [qt5]
   ubuntu: [libqt5gui5]
+  windows: [qt5-sdk]
 libqt5-network:
   arch: [qt5-base]
   debian: [libqt5network5]
@@ -2895,6 +2899,7 @@ libqt5-widgets:
   opensuse: [libQt5Widgets5]
   slackware: [qt5]
   ubuntu: [libqt5widgets5]
+  windows: [qt5-sdk]
 libqt5x11extras5-dev:
   arch: [qt5-x11extras]
   debian: [libqt5x11extras5-dev]
@@ -4030,6 +4035,7 @@ opengl:
     slackpkg:
       packages: [mesa]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
+  windows: []
 openjdk-6-jdk:
   arch: [openjdk6]
   debian:
@@ -4340,6 +4346,7 @@ qtbase5-dev:
   opensuse: [libqt5-qtbase-common-devel, libqt5-qtbase-devel]
   slackware: [qt5]
   ubuntu: [qtbase5-dev]
+  windows: [qt5-sdk]
 qtmobility-dev:
   arch: [qtmobility]
   debian: [qtmobility-dev]
@@ -4947,6 +4954,7 @@ uuid:
     slackpkg:
       packages: [util-linux]
   ubuntu: [uuid-dev]
+  windows: []
 uvcdynctrl:
   debian: [uvcdynctrl]
   fedora: [uvcdynctrl]
