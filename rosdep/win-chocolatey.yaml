@@ -1,2 +1,5 @@
 vcpython:
   windows: [vcpython27]
+
+opencv3:
+  windows: [libopencv]
