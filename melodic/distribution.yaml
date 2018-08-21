@@ -4720,8 +4720,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-perception/vision_opencv.git
-      version: melodic
+      url: https://github.com/ms-iot/vision_opencv.git
+      version: init_windows
     status: maintained
   visualization_tutorials:
     doc:
