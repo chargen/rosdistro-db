@@ -3103,8 +3103,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/robot_state_publisher.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/robot_state_publisher.git
+      version: init_windows
     status: maintained
   robot_upstart:
     doc:
