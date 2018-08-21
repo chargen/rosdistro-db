@@ -1595,7 +1595,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ms-iot/laser_geometry.git
-      version: indigo-devel
+      version: init_windows
     status: maintained
   laser_pipeline:
     doc:
