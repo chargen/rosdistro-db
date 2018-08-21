@@ -2,4 +2,6 @@ vcpython:
   windows: [vcpython27]
 
 opencv3:
-  windows: [libopencv-dev]
+  windows:
+    chocolatey:
+      depends: [libopencv-dev]
