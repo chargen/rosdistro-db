@@ -537,7 +537,7 @@ curl:
     slackpkg:
       packages: [curl]
   ubuntu: [libcurl4-openssl-dev, curl]
-  windows: [curl]
+  windows: [libcurl]
 curlpp-dev:
   debian: [libcurlpp-dev]
   fedora: [curlpp-devel]
