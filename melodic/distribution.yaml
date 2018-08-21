@@ -52,8 +52,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/actionlib.git
-      version: indigo-devel
+      url: https://github.com/ms-iot/actionlib.git
+      version: init_windows
     status: maintained
   angles:
     doc:
@@ -68,8 +68,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/angles.git
-      version: master
+      url: https://github.com/ms-iot/angles.git
+      version: init_windows
     status: maintained
   ar_track_alvar:
     doc:
@@ -215,8 +215,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/bond_core.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/bond_core.git
+      version: init_windows
     status: maintained
   bta_tof_driver:
     doc:
@@ -294,8 +294,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/catkin.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/catkin.git
+      version: init_windows
     status: maintained
   catkin_virtualenv:
     doc:
@@ -325,8 +325,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/class_loader.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/class_loader.git
+      version: init_windows
     status: maintained
   cmake_modules:
     doc:
@@ -402,8 +402,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/common_msgs.git
-      version: jade-devel
+      url: https://github.com/ms-iot/common_msgs.git
+      version: init_windows
     status: maintained
   common_tutorials:
     doc:
@@ -573,8 +573,8 @@ repositories:
       version: 1.9.3-0
     source:
       type: git
-      url: https://github.com/ros/diagnostics.git
-      version: indigo-devel
+      url: https://github.com/ms-iot/diagnostics.git
+      version: init_windows
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -589,8 +589,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/dynamic_reconfigure.git
-      version: master
+      url: https://github.com/ms-iot/dynamic_reconfigure.git
+      version: init_windows
     status: maintained
   dynamixel-workbench:
     doc:
@@ -1074,8 +1074,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/geometry.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/geometry.git
+      version: init_windows
     status: maintained
   geometry2:
     doc:
@@ -1102,8 +1102,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/geometry2.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/geometry2.git
+      version: init_windows
     status: maintained
   geometry_tutorials:
     doc:
@@ -1316,8 +1316,8 @@ repositories:
       version: 1.11.13-0
     source:
       type: git
-      url: https://github.com/ros-perception/image_common.git
-      version: hydro-devel
+      url: https://github.com/ms-iot/image_common.git
+      version: init_windows
     status: maintained
   image_pipeline:
     doc:
@@ -1415,8 +1415,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/interactive_markers.git
-      version: indigo-devel
+      url: https://github.com/ms-iot/interactive_markers.git
+      version: init_windows
     status: maintained
   joint_state_publisher:
     doc:
@@ -1594,7 +1594,7 @@ repositories:
       version: 1.6.4-0
     source:
       type: git
-      url: https://github.com/ros-perception/laser_geometry.git
+      url: https://github.com/ms-iot/laser_geometry.git
       version: indigo-devel
     status: maintained
   laser_pipeline:
@@ -2328,8 +2328,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/nodelet_core.git
-      version: indigo-devel
+      url: https://github.com/ms-iot/nodelet_core.git
+      version: init_windows
     status: maintained
   novatel_gps_driver:
     doc:
@@ -2479,8 +2479,8 @@ repositories:
       version: 1.4.0-0
     source:
       type: git
-      url: https://github.com/orocos/orocos_kinematics_dynamics.git
-      version: master
+      url: https://github.com/ms-iot/orocos_kinematics_dynamics.git
+      version: init_windows
     status: maintained
   oxford_gps_eth:
     doc:
@@ -2677,8 +2677,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/pluginlib.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/pluginlib.git
+      version: init_windows
     status: maintained
   pointcloud_to_laserscan:
     doc:
@@ -2746,8 +2746,8 @@ repositories:
       version: 0.3.4-0
     source:
       type: git
-      url: https://github.com/ros-visualization/python_qt_binding.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/python_qt_binding.git
+      version: init_windows
     status: maintained
   qb_chain:
     doc:
@@ -2853,8 +2853,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/qt_gui_core.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/qt_gui_core.git
+      version: init_windows
     status: maintained
   qwt_dependency:
     doc:
@@ -2999,8 +2999,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/resource_retriever.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/resource_retriever.git
+      version: init_windows
     status: maintained
   rgbd_launch:
     doc:
@@ -3147,8 +3147,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/ros.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/ros.git
+      version: init_windows
     status: maintained
   ros_canopen:
     doc:
@@ -3208,8 +3208,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/ros_comm.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/ros_comm.git
+      version: init_windows
     status: maintained
   ros_comm_msgs:
     doc:
@@ -3354,8 +3354,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/ros_tutorials.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/ros_tutorials.git
+      version: init_windows
     status: maintained
   ros_type_introspection:
     doc:
@@ -3426,8 +3426,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/rosconsole.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/rosconsole.git
+      version: init_windows
     status: maintained
   rosconsole_bridge:
     doc:
@@ -3442,8 +3442,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/rosconsole_bridge.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/rosconsole_bridge.git
+      version: init_windows
     status: maintained
   roscpp_core:
     doc:
@@ -3464,8 +3464,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/roscpp_core.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/roscpp_core.git
+      version: init_windows
     status: maintained
   rosdoc_lite:
     doc:
@@ -3541,8 +3541,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/rospack.git
-      version: lunar-devel
+      url: https://github.com/ms-iot/rospack.git
+      version: init_windows
     status: maintained
   rosparam_shortcuts:
     doc:
@@ -3963,8 +3963,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/rqt_rviz.git
-      version: lunar-devel
+      url: https://github.com/ms-iot/rqt_rviz.git
+      version: init_windows
     status: maintained
   rqt_service_caller:
     doc:
@@ -4100,8 +4100,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/rviz.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/rviz.git
+      version: init_windows
     status: maintained
   rviz_visual_tools:
     doc:
@@ -4546,8 +4546,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/urdf.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/urdf.git
+      version: init_windows
     status: maintained
   urdf_geometry_parser:
     doc:
@@ -4743,8 +4743,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/visualization_tutorials.git
-      version: kinetic-devel
+      url: https://github.com/ms-iot/visualization_tutorials.git
+      version: init_windows
     status: maintained
   vrpn:
     doc:
