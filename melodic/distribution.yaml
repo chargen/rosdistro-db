@@ -3636,8 +3636,8 @@ repositories:
       version: 0.4.12-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_bag.git
-      version: master
+      url: https://github.com/ms-iot/rqt_bag.git
+      version: init_windows
     status: maintained
   rqt_bag_exporter:
     doc:
@@ -3672,8 +3672,8 @@ repositories:
       version: 0.4.8-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_console.git
-      version: master
+      url: https://github.com/ms-iot/rqt_console.git
+      version: init_windows
     status: maintained
   rqt_dep:
     doc:
@@ -3687,8 +3687,8 @@ repositories:
       version: 0.4.9-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_dep.git
-      version: master
+      url: https://github.com/ms-iot/rqt_dep.git
+      version: init_windows
     status: maintained
   rqt_graph:
     doc:
@@ -3703,8 +3703,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/rqt_graph.git
-      version: master
+      url: https://github.com/ms-iot/rqt_graph.git
+      version: init_windows
     status: maintained
   rqt_image_view:
     doc:
@@ -3719,8 +3719,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-visualization/rqt_image_view.git
-      version: master
+      url: https://github.com/ms-iot/rqt_image_view.git
+      version: init_windows
     status: maintained
   rqt_launch:
     doc:
@@ -3750,8 +3750,8 @@ repositories:
       version: 0.4.8-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_logger_level.git
-      version: master
+      url: https://github.com/ms-iot/rqt_logger_level.git
+      version: init_windows
     status: maintained
   rqt_moveit:
     doc:
@@ -3810,8 +3810,8 @@ repositories:
       version: 0.4.8-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_plot.git
-      version: master
+      url: https://github.com/ms-iot/rqt_plot.git
+      version: init_windows
     status: maintained
   rqt_pose_view:
     doc:
@@ -3993,8 +3993,8 @@ repositories:
       version: 0.4.9-0
     source:
       type: git
-      url: https://github.com/ros-visualization/rqt_shell.git
-      version: master
+      url: https://github.com/ms-iot/rqt_shell.git
+      version: init_windows
     status: maintained
   rqt_srv:
     doc:
@@ -4840,8 +4840,8 @@ repositories:
       version: 1.13.2-0
     source:
       type: git
-      url: https://github.com/ros/xacro.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/xacro.git
+      version: init_windows
     status: maintained
   xpp:
     doc:
