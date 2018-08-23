@@ -3333,8 +3333,8 @@ repositories:
       version: 1.2.1-0
     source:
       type: git
-      url: https://github.com/ros/ros_environment.git
-      version: melodic
+      url: https://github.com/ms-iot/ros_environment.git
+      version: init_windows
     status: maintained
   ros_tutorials:
     doc:
