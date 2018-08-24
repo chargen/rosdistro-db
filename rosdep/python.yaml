@@ -3516,6 +3516,7 @@ python-sip:
     yakkety_python3: [python3-sip-dev]
     zesty: [python-sip-dev]
     zesty_python3: [python3-sip-dev]
+  windows: [sip]
 python-sip4:
   debian: [python-sip-dev]
   fedora: [sip]
