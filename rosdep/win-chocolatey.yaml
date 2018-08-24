@@ -4,4 +4,4 @@ vcpython:
 opencv3:
   windows:
     chocolatey:
-      depends: [libopencv-dev]
+      depends: [libopencv-dev, python-opencv]
