@@ -4354,6 +4354,7 @@ qt5-qmake:
   opensuse: [libqt5-qtbase-common-devel]
   slackware: [qt5]
   ubuntu: [qt5-qmake]
+  windows: [qt5-sdk]
 qtbase5-dev:
   arch: [qt5-base]
   debian: [qtbase5-dev]
