@@ -2980,7 +2980,7 @@ python-qt5-bindings:
     yakkety: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     zesty: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
   windows: 
-    pip:
+    chocolatey:
       depends: [qtbase5-dev]
       packages: [pyqt5, sip, pyside2]
 python-qt5-bindings-gl:
