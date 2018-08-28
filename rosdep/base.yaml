@@ -2862,6 +2862,7 @@ libqt5-network:
   freebsd: [qt5-network]
   gentoo: ['dev-qt/qtnetwork:5']
   ubuntu: [libqt5network5]
+  windows: [qt5-sdk]
 libqt5-opengl:
   arch: [qt5-base]
   debian: [libqt5opengl5]
@@ -2871,6 +2872,7 @@ libqt5-opengl:
   opensuse: [libQt5OpenGL5]
   slackware: [qt5]
   ubuntu: [libqt5opengl5]
+  windows: [qt5-sdk]
 libqt5-opengl-dev:
   arch: [qt5-base]
   debian: [libqt5opengl5-dev]
@@ -2878,6 +2880,7 @@ libqt5-opengl-dev:
   gentoo: ['dev-qt/qtopengl:5']
   slackware: [qt5]
   ubuntu: [libqt5opengl5-dev]
+  windows: [qt5-sdk]
 libqt5-printsupport:
   arch: [qt5-base]
   debian: [libqt5printsupport5]
