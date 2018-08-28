@@ -2543,6 +2543,9 @@ python-pyassimp:
     xenial: [python-pyassimp]
     yakkety: [python-pyassimp]
     zesty: [python-pyassimp]
+  windows:
+    pip:
+      packages: [pyassimp]
 python-pyaudio:
   debian: [python-pyaudio]
   fedora: [pyaudio]
