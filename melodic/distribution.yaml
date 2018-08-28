@@ -2213,7 +2213,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros-planning/navigation.git
+      url: https://github.com/ms-iot/navigation.git
       version: melodic-devel
     status: maintained
   navigation_msgs:
