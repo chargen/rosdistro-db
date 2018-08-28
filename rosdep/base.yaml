@@ -515,6 +515,7 @@ cppunit:
   rhel: [cppunit-devel]
   slackware: [cppunit]
   ubuntu: [libcppunit-dev]
+  windows: [cppunit]
 cpuburn:
   arch: [cpuburn]
   debian: [cpuburn]
@@ -4481,6 +4482,7 @@ sdl:
   gentoo: [media-libs/libsdl]
   macports: [libsdl]
   ubuntu: [libsdl1.2-dev]
+  windows: [sdl]
 sdl-gfx:
   arch: [sdl_gfx]
   debian: [libsdl-gfx1.2-dev]
@@ -4496,6 +4498,7 @@ sdl-image:
   macports: [libsdl_image]
   opensuse: [SDL_image]
   ubuntu: [libsdl-image1.2-dev]
+  windows: [sdl_image]
 sdl-mixer:
   arch: [sdl_mixer]
   debian: [libsdl-mixer1.2-dev]
