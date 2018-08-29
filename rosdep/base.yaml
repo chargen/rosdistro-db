@@ -5274,6 +5274,7 @@ zlib:
     slackpkg:
       packages: [zlib]
   ubuntu: [zlib1g-dev]
+  windows: [zlib]
 zziplib:
   arch: [zziplib]
   debian: [libzzip-0-13, libzzip-dev]
