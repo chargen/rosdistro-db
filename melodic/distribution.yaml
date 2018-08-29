@@ -1923,8 +1923,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/metapackages.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/metapackages.git
+      version: init_windows
     status: maintained
   moveit:
     doc:
