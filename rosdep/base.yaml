@@ -2151,6 +2151,7 @@ libjpeg:
     xenial: [libjpeg-dev]
     yakkety: [libjpeg-dev]
     zesty: [libjpeg-dev]
+  windows: [libjpeg-turbo]
 libjson-glib:
   arch: [json-glib]
   debian: [libjson-glib-dev]
@@ -2594,6 +2595,7 @@ libpng-dev:
     xenial: [libpng12-dev]
     yakkety: [libpng-dev]
     zesty: [libpng-dev]
+  windows: [libpng]
 libpng12-dev:
   arch: [libpng]
   debian: [libpng12-dev]
