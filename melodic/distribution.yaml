@@ -863,8 +863,8 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/ros/filters.git
-      version: lunar-devel
+      url: https://github.com/ms-iot/filters.git
+      version: init_windows
     status: maintained
   find_object_2d:
     doc:
