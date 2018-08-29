@@ -1344,8 +1344,8 @@ repositories:
       version: 1.12.23-0
     source:
       type: git
-      url: https://github.com/ros-perception/image_pipeline.git
-      version: indigo
+      url: https://github.com/ms-iot/image_pipeline.git
+      version: init_windows
   image_transport_plugins:
     doc:
       type: git
