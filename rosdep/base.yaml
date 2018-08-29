@@ -1186,6 +1186,9 @@ gtk2:
     slackpkg:
       packages: [gtk+2]
   ubuntu: [libgtk2.0-dev]
+  windows:
+    chocolatey:
+      depends: [gtk3]
 gtk3:
   arch: [gtk3]
   debian: [libgtk-3-dev]
