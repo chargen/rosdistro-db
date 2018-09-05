@@ -2806,6 +2806,7 @@ libqt4:
   opensuse: [libqt4]
   rhel: [qt]
   ubuntu: [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
+  windows: [qt5-sdk]
 libqt4-dev:
   arch: [qt4]
   debian: [libqt4-dev]
@@ -2816,6 +2817,7 @@ libqt4-dev:
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
   ubuntu: [libqt4-dev]
+  windows: [qt5-sdk]
 libqt4-opengl:
   arch: [qt4]
   debian: [libqt4-opengl]
@@ -2823,6 +2825,7 @@ libqt4-opengl:
   gentoo: ['dev-qt/qtopengl:4']
   rhel: [qt]
   ubuntu: [libqt4-opengl]
+  windows: [qt5-sdk]
 libqt4-opengl-dev:
   arch: [qt4]
   debian: [libqt4-opengl-dev]
@@ -2832,6 +2835,7 @@ libqt4-opengl-dev:
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
   ubuntu: [libqt4-opengl-dev]
+  windows: [qt5-sdk]
 libqt4-sql-psql:
   arch: [qt4]
   debian: [libqt4-sql-psql]
@@ -2839,6 +2843,7 @@ libqt4-sql-psql:
   gentoo: ['dev-qt/qtsql:4']
   macports: [qt4-mac]
   ubuntu: [libqt4-sql-psql]
+  windows: [qt5-sdk]
 libqt5-concurrent:
   arch: [qt5-base]
   debian: [libqt5concurrent5]
@@ -2847,6 +2852,7 @@ libqt5-concurrent:
   opensuse: [libQt5Concurrent5]
   slackware: [qt5]
   ubuntu: [libqt5concurrent5]
+  windows: [qt5-sdk]
 libqt5-core:
   arch: [qt5-base]
   debian: [libqt5core5a]
