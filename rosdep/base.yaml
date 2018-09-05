@@ -147,6 +147,7 @@ assimp-dev:
     xenial: [libassimp-dev]
     yakkety: [libassimp-dev]
     zesty: [libassimp-dev]
+  windows: [assimp]
 atlas:
   arch: [atlas-lapack]
   debian: [libatlas-base-dev]
