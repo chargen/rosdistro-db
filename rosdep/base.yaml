@@ -2750,6 +2750,7 @@ libqglviewer-qt4:
     xenial: [libqglviewer2-qt4]
     yakkety: [libqglviewer2-qt4]
     zesty: [libqglviewer2-qt4]
+  windows: [libqglviewer]
 libqglviewer-qt4-dev:
   arch: [libqglviewer-qt4]
   debian:
@@ -2777,6 +2778,7 @@ libqglviewer-qt4-dev:
     xenial: [libqglviewer-dev-qt4]
     yakkety: [libqglviewer-dev-qt4]
     zesty: [libqglviewer-dev-qt4]
+  windows: [libqglviewer]
 libqhull:
   arch: [qhull]
   debian: [libqhull-dev]
