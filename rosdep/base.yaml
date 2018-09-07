@@ -1725,6 +1725,7 @@ libflann:
     vivid: [libflann1.8]
     wily: [libflann1.8]
     xenial: [libflann1.8]
+  windows: [libflann]
 libflann-dev:
   arch: [flann]
   debian: [libflann-dev]
@@ -1732,6 +1733,7 @@ libflann-dev:
   gentoo: [sci-libs/flann]
   macports: [flann]
   ubuntu: [libflann-dev]
+  windows: [libflann]
 libfltk-dev:
   arch: [fltk]
   debian:
