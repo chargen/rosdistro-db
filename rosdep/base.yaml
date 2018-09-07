@@ -2363,6 +2363,7 @@ libogg:
   opensuse: [libogg-devel]
   slackware: [libogg]
   ubuntu: [libogg-dev]
+  windows: [libogg]
 libogre-dev:
   arch: [ogre-1.9]
   debian:
