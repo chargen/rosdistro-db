@@ -2890,8 +2890,8 @@ repositories:
       version: 0.3.2-0
     source:
       type: git
-      url: https://github.com/ros-planning/random_numbers.git
-      version: master
+      url: https://github.com/ms-iot/random_numbers.git
+      version: init_windows
     status: maintained
   raspimouse_sim:
     doc:
