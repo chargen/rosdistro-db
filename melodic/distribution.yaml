@@ -2378,10 +2378,6 @@ repositories:
         release: release/melodic/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
       version: 1.9.0-1
-    source:
-      type: git
-      url: https://github.com/OctoMap/octomap.git
-      version: devel
     status: maintained
   octomap_msgs:
     doc:
