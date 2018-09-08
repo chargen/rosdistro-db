@@ -1056,8 +1056,8 @@ repositories:
       version: 0.6.0-0
     source:
       type: git
-      url: https://github.com/ros-planning/geometric_shapes.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/geometric_shapes.git
+      version: init_windows
     status: maintained
   geometry:
     doc:
@@ -4252,8 +4252,8 @@ repositories:
       version: 0.5.1-0
     source:
       type: git
-      url: https://github.com/ros-planning/srdfdom.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/srdfdom.git
+      version: init_windows
     status: maintained
   stage:
     doc:
