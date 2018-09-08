@@ -1542,6 +1542,7 @@ libccd-dev:
   fedora: [libccd]
   gentoo: [sci-libs/libccd]
   ubuntu: [libccd-dev]
+  windows: [libccd]
 libcegui-mk2-dev:
   arch: [cegui]
   debian: [libcegui-mk2-dev]
