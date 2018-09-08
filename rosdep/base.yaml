@@ -1699,7 +1699,10 @@ libfcl-dev:
     xenial: [libfcl-0.5-dev]
     yakkety: [libfcl-dev]
     zesty: [libfcl-dev]
-  windows: [libfcl]
+  windows:
+    chocolatey:
+      depends: [libccd-dev]
+      packages: [libfcl]
 libffi-dev:
   debian: [libffi-dev]
   fedora: [libffi-devel]
