@@ -1699,6 +1699,7 @@ libfcl-dev:
     xenial: [libfcl-0.5-dev]
     yakkety: [libfcl-dev]
     zesty: [libfcl-dev]
+  windows: [libfcl]
 libffi-dev:
   debian: [libffi-dev]
   fedora: [libffi-devel]
