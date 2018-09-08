@@ -945,8 +945,8 @@ repositories:
       version: 0.6.0-0
     source:
       type: git
-      url: https://github.com/ros/gencpp.git
-      version: indigo-devel
+      url: https://github.com/ms-iot/gencpp.git
+      version: init_windows
     status: maintained
   geneus:
     doc:
@@ -1965,8 +1965,8 @@ repositories:
       version: 0.10.1-0
     source:
       type: git
-      url: https://github.com/ros-planning/moveit.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/moveit.git
+      version: init_windows
     status: developed
   moveit_msgs:
     doc:
