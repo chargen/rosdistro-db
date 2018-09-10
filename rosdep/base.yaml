@@ -996,6 +996,7 @@ glut:
   macports: [freeglut]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
+  windows: [freeglut]
 gnuplot:
   arch: [gnuplot]
   debian: [gnuplot]
