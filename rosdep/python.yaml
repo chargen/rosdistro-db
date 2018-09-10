@@ -922,6 +922,7 @@ python-crypto:
     zesty_python3: [python3-crypto]
   windows:
     pip:
+      depends: [vcpython]
       packages: [pycrypto]
 python-cryptography:
   debian: [python-cryptography]
