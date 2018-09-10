@@ -1899,6 +1899,7 @@ libglew-dev:
     xenial: [libglew-dev]
     yakkety: [libglew-dev]
     zesty: [libglew-dev]
+  windows: [libglew]
 libglfw3-dev:
   debian: [libglfw3-dev]
   gentoo: [media-libs/glfw]
