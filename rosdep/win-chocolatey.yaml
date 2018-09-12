@@ -11,3 +11,6 @@ octomap:
     chocolatey:
       depends: [libqglviewer-qt4]
       packages: [octomap]
+
+ompl:
+  windows: [libompl]
