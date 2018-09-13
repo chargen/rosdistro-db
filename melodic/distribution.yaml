@@ -1965,7 +1965,7 @@ repositories:
       version: 0.10.1-0
     source:
       type: git
-      url: https://github.com/seanyen-msft/moveit.git
+      url: https://github.com/ms-iot/moveit.git
       version: init_windows
     status: developed
   moveit_msgs:
