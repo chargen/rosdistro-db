@@ -2040,8 +2040,8 @@ repositories:
       version: 3.2.1-2
     source:
       type: git
-      url: https://github.com/PickNikRobotics/moveit_visual_tools.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/moveit_visual_tools.git
+      version: init_windows
     status: developed
   mrpt1:
     release:
@@ -4146,8 +4146,8 @@ repositories:
       version: 3.6.1-0
     source:
       type: git
-      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: melodic-devel
+      url: https://github.com/ms-iot/rviz_visual_tools.git
+      version: init_windows
     status: developed
   sbg_driver:
     doc:
