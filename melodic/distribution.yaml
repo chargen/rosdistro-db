@@ -3587,7 +3587,7 @@ repositories:
       version: 0.7.7-0
     source:
       type: git
-      url: https://github.com/ros-drivers/rosserial.git
+      url: https://github.com/ms-iot/rosserial.git
       version: jade-devel
     status: maintained
   rospilot:
