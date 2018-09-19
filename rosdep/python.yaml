@@ -2578,6 +2578,9 @@ python-pydot:
       packages: [pydot]
   slackware: [pydot]
   ubuntu: [python-pydot]
+  windows:
+    pip:
+      packages: [pydot]
 python-pyexiv2:
   debian: [python-pyexiv2]
   fedora: [pyexiv2]
